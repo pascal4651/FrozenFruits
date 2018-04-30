@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.gameproject.HowToPlayActivity">
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:inputType="textMultiLine"
+        android:text="1. CONTROLS:\n - move laft: rotate teephone left;\n - move right: rotate telephone right;\n - jump/land: touch screen.
+\n\n2. POINTS:\n - apple: + 5 points;\n - pear: + 10points;\n - frozen apple: health - 5;\n - frozen pear: health - 10;\n - collision with ice: - 1 life;\n - collision with snowball: - 1 life." />
+</android.support.constraint.ConstraintLayout>
